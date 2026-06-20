@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Loïc Boutoille</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        header h1 {
+            color: #2563eb;
+            font-family: Geneva;
+        }
+
+        body {
+            background-color: #f1f5f9;
+            font-family: Geneva;
+        }
+
+        .skills-container {
+            font-family: Geneva;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-tag {
+            background: white;
+            padding: 10px;
+            border-radius: 10px
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Bienvenue sur le site de Loïc !</h1>
+    <p><a href="index.html">← Retour à l'accueil</a></p>
+</header>
+
+<main>
+
+<section>
+    <h2>À propos de moi</h2>
+    <p>
+        Je m'appelle Loïc, je passe en première à l'Institut La Malassise. Je joues du violon, je fais de la voile, de la natation et j'adore l'informatique.
+    </p>
+</section>
+
+<section>
+    <h2>Mes passions</h2>
+
+    <div class="skills-container">
+        <div class="skill-tag">🎧 DJing</div>
+        <div class="skill-tag">⛵ Voile</div>
+        <div class="skill-tag">💻 Programmation</div>
+        <div class="skill-tag">🎥 Audiovisuel</div>
+        <div class="skill-tag">🎭 Théâtre & Danse</div>
+    </div>
+</section>
+
+<section>
+    <h2>Mes projets</h2>
+
+    <ul>
+        <li>🌱 StopCarbon : Développement d'une startup d'application écologique.</li>
+        <li>⛵️ VA Connect : Développement d'une plateforme pour les clubs de la FFVoile</li>
+        <li>🐍 Apprentissage de Python </li>
+        <li>💻 Apprentissage du HTML, Swift, SwiftUI et C++</li>
+        <li>🎤 Prestations DJ</li>
+    </ul>
+    <button id="mon-bouton-like" class="btn">
+        ❤ J'aime (0)
+    </button>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 - Loïc Boutoille</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
